@@ -3,8 +3,10 @@
 # define R_DIR_PIN 15
 # define L_DIR_PIN 16
 
-# define FWD HIGH
-# define REV LOW
+// REVERSE DIRECTION
+
+# define FWD LOW
+# define REV HIGH
 
 class RoboMotors {
   public:
